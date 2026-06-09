@@ -4,7 +4,7 @@ Exports CAM portfolio positions to Excel using the CAM Open API.
 
 The program:
 
-- selects portfolios tagged `SP Core`
+- selects portfolios tagged `SP Core`(changable)
 - downloads Asset & Position data
 - sorts positions by USD Exposure
 - creates one sheet per portfolio with the top 10 and bottom 10 exposures
