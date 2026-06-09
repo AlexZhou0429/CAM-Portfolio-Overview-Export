@@ -36,8 +36,3 @@ Optional date and hour:
 ```bash
 python export_portfolio_overview.py --date 2026-06-09 --hour 17
 ```
-
-## Security
-
-Never commit API credentials or generated Excel files. They are excluded by
-`.gitignore`.
