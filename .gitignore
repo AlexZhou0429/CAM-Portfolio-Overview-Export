@@ -1,0 +1,29 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.*
+secrets.*
+
+# Generated reports and potentially sensitive data
+outputs/
+*.xlsx
+*.xls
+*.csv
+*.log
+screenshots/
+
+# API discovery and local reference files
+discover_cam_api.py
+API_FINDINGS.md
+api_discovery.json
+openapi.json
+
+# Python and editor files
+__pycache__/
+*.py[cod]
+.DS_Store
+.vscode/
+.idea/
