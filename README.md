@@ -23,8 +23,7 @@ python -m pip install -r requirements.txt
 python export_portfolio_overview.py
 ```
 
-Enter the CAM API Key and Secret when prompted. They are hidden and are not
-saved to disk.
+Enter the CAM API Key and Secret when prompted. It requires you to apply for an API on your CAM system.
 
 Two files are created in `outputs/`:
 
